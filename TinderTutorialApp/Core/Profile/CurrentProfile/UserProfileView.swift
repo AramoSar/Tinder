@@ -39,7 +39,7 @@ struct UserProfileView: View {
             VStack {
                 ScrollView {
                     ZStack(alignment: .top) {
-                        Image(user.ProfileImageURLs[currentImageIndex   ])
+                        Image(user.ProfileImageURLs[currentImageIndex])
                             .resizable()
                             .scaledToFill()
                             .frame(width: SizeConstants.cardWidth, height: SizeConstants.cardHeight)
